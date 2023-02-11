@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnAndroid"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="25dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="Android app dev"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnIos"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="20dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/ios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="ios app dev"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnWeb"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="20dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:text="Web Dev"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnMl"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="20dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/ML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:text="Machine Learning"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnBlockchain"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="20dp"
+            app:cardBackgroundColor="@color/purple_200"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+
+                android:id="@+id/BlockChain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:text="Blockchain"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnWeb3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp"
+            android:padding="20dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/web3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:text="Web 3.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="contact me" />
+
+
+
+
+</LinearLayout>
